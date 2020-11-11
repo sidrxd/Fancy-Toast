@@ -1,0 +1,3 @@
+include ':sefancytoast'
+include ':app'
+rootProject.name = "SE Toast"
