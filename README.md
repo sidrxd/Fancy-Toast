@@ -1,4 +1,4 @@
-# Fancy-Toast-by-soEpic-Technologies
+# Fancy-Toast-by-soEpic
 
 Step 1. Add the JitPack repository to your build file
 
