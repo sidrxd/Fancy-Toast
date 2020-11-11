@@ -22,11 +22,11 @@ Add it in your root build.gradle at the end of repositories:
 <h2>Usage: </h2>
 
         new FancyToast()
-                .with(this)
-                .setGravity(Gravity.BOTTOM,0,100)
-                .setIcon(R.drawable.ic_round_group_work_24)
-                .setText("Showing Show")
-                .cornerRadius(16)
-                .show();
+                .with(this) // context
+                .setGravity(Gravity.BOTTOM,0,100) // gravity of FancyToast
+                .setIcon(R.drawable.ic_round_group_work_24) // set custom icon resource
+                .setText("Showing Show") // set text for FancyToast
+                .cornerRadius(16) // corner radius of FancyToast view
+                .show(); // finally show the FancyToast
                 
     
