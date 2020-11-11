@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class FancyToast {
 
 
-    public static void fancyToast(Context context, String msg, int toastImg) {
+    public static void makeToast(Context context, String msg, int toastImg) {
         View v = LayoutInflater.from(context).inflate(R.layout.toast, null);
         TextView toast = v.findViewById(R.id.toast_text);
         toast.setText(msg);
@@ -24,6 +24,9 @@ public class FancyToast {
         myToast.setDuration(Toast.LENGTH_SHORT);
         myToast.show();
 
+    }
+    public static void setText (){
+        
     }
 
 }
