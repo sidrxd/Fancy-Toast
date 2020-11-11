@@ -16,5 +16,14 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.sidrxd:Fancy-Toast-by-soEpic-Technologies:1.2'
+	         implementation 'com.github.sidrxd:Fancy-Toast:1.2'
 	}
+	
+Usage:
+
+new FancyToast()
+                .with(this)
+                .setIcon(R.drawable.ic_round_group_work_24)
+                .setText("Showing Show");
+                
+    
