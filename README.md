@@ -1,6 +1,6 @@
 # Fancy-Toast-by-soEpic
 
-Step 1. Add the JitPack repository to your build file
+<h2>Step 1. Add the JitPack repository to your build file </h2>
 
 gradle :-
 
@@ -13,7 +13,7 @@ Add it in your root build.gradle at the end of repositories:
 		}
 	}
   
-Step 2. Add the dependency
+<h2>Step 2. Add the dependency </h2>
 
 	dependencies {
 	         implementation 'com.github.sidrxd:Fancy-Toast:1.2'
