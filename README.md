@@ -21,7 +21,7 @@ Step 2. Add the dependency
 	
 Usage:
 
-new FancyToast()
+        new FancyToast()
                 .with(this)
                 .setIcon(R.drawable.ic_round_group_work_24)
                 .setText("Showing Show");
