@@ -3,6 +3,7 @@ package com.soepic.setoast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 
@@ -29,9 +30,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private void showToast(){
         new FancyToast()
                 .with(this)
+                .setGravity(Gravity.BOTTOM,0,100)
                 .setIcon(R.drawable.ic_round_group_work_24)
                 .setText("Showing Show")
-                
+                .cornerRadius(16)
+                .hideIcon(false)
+                .show();
+        
         ;
     }
 }
