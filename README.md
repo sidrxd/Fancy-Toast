@@ -1,5 +1,7 @@
 # Fancy-Toast-by-soEpic
 
+Toasts on Steroids. Have Fun
+
 <h2>Step 1. Add the JitPack repository to your build file </h2>
 
 gradle :-
@@ -22,12 +24,19 @@ Add it in your root build.gradle at the end of repositories:
 <h2>Usage: </h2>
 
         new FancyToast()
-                .with(this) // context
-                .setGravity(Gravity.BOTTOM,0,100) // gravity of FancyToast
-                .setIcon(R.drawable.ic_round_group_work_24) // set custom icon resource
-                .setText("Showing Show") // set text for FancyToast
-                .cornerRadius(16) <p>// corner radius of FancyToast view
-		.hideIcon(false) <p> // show/hide icon
-                .show(); // finally show the FancyToast
+	        // context
+                .with(this) 
+		// gravity of FancyToast
+                .setGravity(Gravity.BOTTOM,0,100) 
+		 // set custom icon resource
+                .setIcon(R.drawable.ic_round_group_work_24)
+		 // set text for FancyToast
+                .setText("Showing Show")
+		 // corner radius of FancyToast view
+                .cornerRadius(16)
+		 // show/hide icon
+		.hideIcon(false)
+		 // finally show the FancyToast
+                .show();
                 
     
