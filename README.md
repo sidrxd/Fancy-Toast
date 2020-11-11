@@ -1,6 +1,8 @@
 # Fancy-Toast-by-soEpic
+[![](https://jitpack.io/v/sidrxd/Fancy-Toast.svg)](https://jitpack.io/#sidrxd/Fancy-Toast)
 
 Toasts on Steroids. Have Fun
+
 
 <h2>Step 1. Add the JitPack repository to your build file </h2>
 
