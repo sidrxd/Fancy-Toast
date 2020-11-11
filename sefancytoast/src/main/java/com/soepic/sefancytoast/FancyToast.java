@@ -9,26 +9,32 @@ import android.widget.Toast;
 
 public class FancyToast {
 
-
+    ImageView imageView;
     TextView toast;
-    public void makeToast(Context context, String msg, int toastImg) {
+    
+    public FancyToast(){
+        
+    }
+    
+    public FancyToast with(Context context) {
         View v = LayoutInflater.from(context).inflate(R.layout.toast, null);
         toast = v.findViewById(R.id.toast_text);
       //  toast.setText(msg);
-        ImageView imageView = v.findViewById(R.id.toast_img);
-        imageView.setImageResource(toastImg);
-
+        imageView = v.findViewById(R.id.toast_img);
         Toast myToast = new Toast(context);
-
         myToast.setView(v);
         myToast.setDuration(Toast.LENGTH_SHORT);
         myToast.show();
-        setText(msg);
-
+        return this;
     }
-    public void setText (String message){
-        
+    public FancyToast setText(String message){
         toast.setText(message);
+        return this;
+    }
+    public FancyToast setIcon(int icon){
+        imageView.setImageResource(icon);
+
+        return this;
     }
 
 }
