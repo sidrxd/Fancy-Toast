@@ -19,11 +19,14 @@ Step 2. Add the dependency
 	         implementation 'com.github.sidrxd:Fancy-Toast:1.2'
 	}
 	
-Usage:
+<h2>Usage: </h2>
 
         new FancyToast()
                 .with(this)
+                .setGravity(Gravity.BOTTOM,0,100)
                 .setIcon(R.drawable.ic_round_group_work_24)
-                .setText("Showing Show");
+                .setText("Showing Show")
+                .cornerRadius(16)
+                .show();
                 
     
