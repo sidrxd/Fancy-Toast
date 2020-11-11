@@ -26,7 +26,8 @@ Add it in your root build.gradle at the end of repositories:
                 .setGravity(Gravity.BOTTOM,0,100) // gravity of FancyToast
                 .setIcon(R.drawable.ic_round_group_work_24) // set custom icon resource
                 .setText("Showing Show") // set text for FancyToast
-                .cornerRadius(16) // corner radius of FancyToast view
+                .cornerRadius(16) <p>// corner radius of FancyToast view
+		.hideIcon(false) <p> // show/hide icon
                 .show(); // finally show the FancyToast
                 
     
