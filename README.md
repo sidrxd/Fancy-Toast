@@ -1,6 +1,8 @@
 # Fancy-Toast-by-soEpic
+[![](https://jitpack.io/v/sidrxd/Fancy-Toast.svg)](https://jitpack.io/#sidrxd/Fancy-Toast)
 
 Toasts on Steroids. Have Fun
+
 
 <h2>Step 1. Add the JitPack repository to your build file </h2>
 
@@ -18,7 +20,7 @@ Add it in your root build.gradle at the end of repositories:
 <h2>Step 2. Add the dependency </h2>
 
 	dependencies {
-	         implementation 'com.github.sidrxd:Fancy-Toast:1.2'
+	         implementation 'com.github.sidrxd:Fancy-Toast:1.3'
 	}
 	
 <h2>Usage: </h2>
