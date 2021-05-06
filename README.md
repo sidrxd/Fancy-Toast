@@ -40,5 +40,7 @@ Add it in your root build.gradle at the end of repositories:
 		.hideIcon(false)
 		 // finally show the FancyToast
                 .show();
+		
+      //You can add background color and text color using setBackground and setTextColor respectively	
                 
     
