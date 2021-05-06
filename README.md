@@ -26,20 +26,13 @@ Add it in your root build.gradle at the end of repositories:
 <h2>Usage: </h2>
 
         new FancyToast()
-	        // context
-                .with(this) 
-		// gravity of FancyToast
-                .setGravity(Gravity.BOTTOM,0,100) 
-		 // set custom icon resource
-                .setIcon(R.drawable.ic_round_group_work_24)
-		 // set text for FancyToast
-                .setText("Showing Show")
-		 // corner radius of FancyToast view
-                .cornerRadius(16)
-		 // show/hide icon
-		.hideIcon(false)
-		 // finally show the FancyToast
-                .show();
+                .with(this)   // context
+                .setGravity(Gravity.BOTTOM,0,100)  // gravity of FancyToast
+                .setIcon(R.drawable.ic_round_group_work_24)  // set custom icon resource
+                .setText("Showing Show") // set text for FancyToast
+                .cornerRadius(16) // corner radius of FancyToast view
+		.hideIcon(false) // show/hide icon
+                .show();	 // finally show the FancyToast
 		
       //You can add background color and text color using setBackground and setTextColor respectively	
                 
